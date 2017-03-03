@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RollingTest</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="favourite_food">Favourite Food</string>
+    <string name="addy">Address</string>
+    <string name="crush">Crush</string>
+    <string name="email">Email</string>
+    <string name="flaw">Flaws</string>
+    <string name="start">Start</string>
+    <string name="temp"> Transformer Shows Up Here</string>
+</resources>

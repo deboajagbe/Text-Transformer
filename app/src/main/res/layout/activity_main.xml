@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unicornheight.rollingtest.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:layout_width="match_parent"
+                android:inputType="textNoSuggestions"
+                android:layout_height="wrap_content"
+                android:hint="@string/name" />
+
+            <com.robinhood.ticker.TickerView
+                android:id="@+id/nameAction"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:ticker_animationDuration="5000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <EditText
+                android:id="@+id/phoneEditText"
+                android:layout_width="match_parent"
+                android:inputType="textNoSuggestions"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number" />
+
+            <com.robinhood.ticker.TickerView
+                android:id="@+id/phoneAction"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:ticker_animationDuration="1000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/addyEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textNoSuggestions"
+                android:hint="@string/addy" />
+
+            <com.robinhood.ticker.TickerView
+                android:id="@+id/addyAction"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:ticker_animationDuration="3500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textNoSuggestions"
+                android:hint="@string/email" />
+
+            <com.robinhood.ticker.TickerView
+                android:id="@+id/emailAction"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:ticker_animationDuration="9000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/crushEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textNoSuggestions"
+                android:hint="@string/crush" />
+
+            <com.robinhood.ticker.TickerView
+                android:id="@+id/crushAction"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:ticker_animationDuration="8500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/favouriteEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textNoSuggestions"
+                android:hint="@string/favourite_food" />
+
+            <com.robinhood.ticker.TickerView
+                android:id="@+id/favouriteAction"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:ticker_animationDuration="4900"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/flawEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textNoSuggestions"
+                android:hint="@string/flaw" />
+
+            <com.robinhood.ticker.TickerView
+                android:id="@+id/flawAction"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:ticker_animationDuration="9999"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="startTransformation"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="@string/start"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
